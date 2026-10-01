@@ -81,3 +81,28 @@
 .concept-card figcaption{text-align:center;color:#9ea6bd;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;padding:12px 6px 2px}
 .concept-note{max-width:800px;margin:22px auto 8px;text-align:center;color:#aeb5ca;font-style:italic}
 @media(max-width:820px){.world-map-grid,.map-copy-grid,.concept-grid{grid-template-columns:1fr}.map-frame{border-radius:16px}.map-frame span{position:static;display:block;border:0;border-radius:0;text-align:center;background:rgba(255,255,255,.035)}.lore-hero{padding-top:58px}}
+
+
+/* Collection des Luma */
+.luma-hero{padding-bottom:54px}
+.luma-intro-note{max-width:760px;margin:20px auto 0;color:#9fa7bd;font-size:.92rem;text-align:center}
+.luma-section{padding:10px 0 96px}
+.luma-list{display:flex;flex-direction:column;gap:28px}
+.luma-model{display:grid;grid-template-columns:minmax(280px,.9fr) minmax(0,1.1fr);min-height:430px;overflow:hidden;border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,rgba(255,255,255,.03),rgba(185,167,255,.018));box-shadow:0 22px 62px rgba(0,0,0,.24)}
+.luma-visual{display:flex;align-items:center;justify-content:center;min-height:430px;padding:24px;background:radial-gradient(circle at 50% 45%,rgba(185,167,255,.08),transparent 58%),#080a12}
+.luma-visual img{display:block;width:100%;height:100%;max-height:500px;object-fit:contain}
+.luma-copy{display:flex;flex-direction:column;justify-content:center;padding:42px 46px}
+.luma-rank{color:var(--ice);font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.luma-copy h2{font-family:Cinzel,serif;font-size:clamp(2rem,4vw,3.2rem);margin:.18em 0 .65em}
+.luma-specs{margin:0}
+.luma-specs>div{display:grid;grid-template-columns:130px 1fr;gap:18px;padding:15px 0;border-top:1px solid rgba(255,255,255,.08)}
+.luma-specs>div:last-child{border-bottom:1px solid rgba(255,255,255,.08)}
+.luma-specs dt{color:#858da6;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.luma-specs dd{margin:0;color:#c2c8d8;line-height:1.65}
+.luma-specs dd strong{color:#f2e8c9;font-family:Cinzel,serif;font-size:1.08rem}
+.luma-premium{border-color:rgba(221,206,161,.24)}
+.luma-sidereal{border-color:rgba(115,170,255,.34);box-shadow:0 24px 72px rgba(31,71,142,.16)}
+.luma-sidereal .luma-visual{background:radial-gradient(circle at 50% 45%,rgba(46,118,255,.15),transparent 58%),#060811}
+.luma-sidereal .luma-rank{color:#8cc7ff}
+.luma-legend{margin:20px 0 0;color:#91a8c8;font-style:italic}
+@media(max-width:820px){.luma-model{grid-template-columns:1fr;min-height:0}.luma-visual{min-height:300px;padding:18px}.luma-visual img{max-height:390px}.luma-copy{padding:30px 24px 34px}.luma-specs>div{grid-template-columns:1fr;gap:5px}}
